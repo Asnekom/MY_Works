@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My work</title>
+  <link rel="icon" href="images/M.png">
+  <link rel="stylesheet" href="style/all.min.css">
+  <link rel="stylesheet" href="style/bootstrap.min.css">
+  <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+  <header class="header min-vh-100 d-flex flex-column">
+    <div class="header__nav">
+      <div class="container">
+        <nav class="navbar-expand-md d-flex justify-content-between align-items-center flex-wrap">
+          <a class="logo" href="#"><span class="logo__span">my</span> works</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fal fa-bars header__nav-btn"></i>
+          </button>
+
+          <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="header__nav-link" href="#">история</a>
+              </li>
+              <li class="nav-item">
+                <a class="header__nav-link" href="#">работы</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="header__nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  контакты
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="tel:+7 (995) 043-38-68">+7 (995) 043-38-68</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="mailto:alehchenko80@gmail.com">mymail@gmail.com</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="header__content flex-grow-1 d-flex align-items-center">
+      <div class="container">
+        <h1 class="header__content-title">моё портфолио</h1>
+        <p class="header__content-text">Меня зовут Алещенко Иван Ильич. Я родился в городе Родники(ивановской области) 9 октября 2005 года. В детстве играл в игры, смотрел на оформление сайтов и задавал себе вопрос: как это работает Как не живой персонаж двигается, Как можно научится этому. Спустя годы я забыл об этом, и уже в 15-16 лет я узнаю об курсах для веб-разработки. С этого и начался мой путь как программиста. </p>
+      </div>
+    </div>
+  </header>
+  <main class="main min-vh-100">
+    <div class="title">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-10 d-flex flex-column align-items-center">
+            <h2 class="title__heading">история</h2>
+            <p class="title__text">Мой путь в сфере программирования начался с учебного центра PROWEB. Я увидел интересную рекламу их центра, прошёл у них ознакомительный урок и решился сделать маленькие шаги к своей мечте вместе с PROWEB.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main__slider">
+      <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide d-flex align-items-center" data-ride="carousel">
+          <a class="col-1 d-none d-lg-flex" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <i class="fad fa-angle-left main__slider-btn"></i>
+          </a>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex flex-wrap">
+                <div class="main__slider-image col-12 col-lg-6 col-xl-4">
+                  <img src="images/slider img.jpg" alt="" class="main__slider-img w-100 h-100">
+                </div>
+                <div class="main__slider-info col-12 col-lg-6 col-xl-8">
+                  <h2 class="main__slider-title"><span class="main__slider-span">обучение в</span> PROWEB</h2>
+                  <p class="main__slider-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed
+                    ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
+                    rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                    explicabo. Nemo enim ipsam voluptatem quia </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex flex-wrap flex-row-reverse">
+                <div class="main__slider-image col-12 col-lg-6 col-xl-4">
+                  <img src="images/slider img.jpg" alt="" class="main__slider-img w-100 h-100">
+                </div>
+                <div class="main__slider-info col-12 col-lg-6 col-xl-8">
+                  <h2 class="main__slider-title"><span class="main__slider-span">обучение в</span> PROWEB</h2>
+                  <p class="main__slider-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed
+                    ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
+                    rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                    explicabo. Nemo enim ipsam voluptatem quia </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="col-1 d-none d-lg-flex justify-content-end" href="#carouselExampleIndicators" role="button"
+            data-slide="next">
+            <i class="fad fa-angle-right main__slider-btn"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="title">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-10 d-flex flex-column align-items-center">
+            <h2 class="title__heading">Работы</h2>
+            <p class="title__text">Здесь вы сможете ознакомиться с моими работам, которые я собирал по макетам Photoshop</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main__tabs">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-7">
+            <ul class="nav justify-content-around" role="tablist">
+              <li class="nav-item"><a href="#nike" data-toggle="tab" class="main__tabs-link active">nike</a></li> 
+              <li class="nav-item"><a href="#Moon" data-toggle="tab" class="main__tabs-link">Moon-Knight</a></li> 
+              <li class="nav-item"><a href="#orange" data-toggle="tab" class="main__tabs-link">orange-marketing</a></li>
+              <li class="nav-item"><a href="#toshkent" data-toggle="tab" class="main__tabs-link">toshkent</a></li> 
+              <li class="nav-item"><a href="#street88" data-toggle="tab" class="main__tabs-link">street88</a></li>
+              <li class="nav-item"><a href="#pizzeria" data-toggle="tab" class="main__tabs-link">pizzeria</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tab-content">
+      <div class="tab-pane fade show active" role="tabpanel" id="nike">
+        <div class="container-fluid">
+          <div class="row justify-content-center">
+            <div class="col-12 col-lg-6">
+              <img src="images/nike.jpg" alt="" class="main__tabs-img w-100 h-100">
+            </div>
+            <div class="col-11 col-lg-6">
+              <div class="main__tabs-info d-flex flex-column justify-content-between">
+                <div>
+                  <h2 class="main__tabs-title">Макет NIKE</h2>
+                  <p class="main__tabs-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde
+                    omnis iste</p>
+                </div>
+                <div>
+                  <a href="https://asnekom.github.io/Nike/" class="main__tabs-btn">подробнее</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" role="tabpanel" id="Moon">
+        <div class="container-fluid">
+          <div class="row justify-content-center">
+            <div class="col-12 col-lg-6">
+              <img src="images/Moon-Knight.png" alt="" class="main__tabs-img w-100 h-100">
+            </div>
+            <div class="col-11 col-lg-6">
+              <div class="main__tabs-info d-flex flex-column justify-content-between">
+                <div>
+                  <h2 class="main__tabs-title">Макет Moon-Knight</h2>
+                  <p class="main__tabs-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde
+                    omnis iste</p>
+                </div>
+                <div>
+                  <a href="https://asnekom.github.io/Moon-Knight/" class="main__tabs-btn">подробнее</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade fade" role="tabpanel" id="orange">
+        <div class="container-fluid">
+          <div class="row justify-content-center">
+            <div class="col-12 col-lg-6">
+              <img src="images/orange-market.jpg" alt="" class="main__tabs-img w-100 h-100">
+            </div>
+            <div class="col-11 col-lg-6">
+              <div class="main__tabs-info d-flex flex-column justify-content-between">
+                <div>
+                  <h2 class="main__tabs-title">Макет Orange-Marketing</h2>
+                  <p class="main__tabs-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde
+                    omnis iste</p>
+                </div>
+                <div>
+                  <a href="https://asnekom.github.io/Origin_Mark-modern/" class="main__tabs-btn">подробнее</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" role="tabpanel" id="toshkent">
+        <div class="container-fluid">
+          <div class="row justify-content-center">
+            <div class="col-12 col-lg-6">
+              <img src="images/toshkent.jpg" alt="" class="main__tabs-img w-100 h-100">
+            </div>
+            <div class="col-11 col-lg-6">
+              <div class="main__tabs-info d-flex flex-column justify-content-between">
+                <div>
+                  <h2 class="main__tabs-title">Макет TOSHKENT</h2>
+                  <p class="main__tabs-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde
+                    omnis iste</p>
+                </div>
+                <div>
+                  <a href="https://asnekom.github.io/toshkent/" class="main__tabs-btn">подробнее</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane " role="tabpanel" id="street88">
+        <div class="container-fluid">
+          <div class="row justify-content-center">
+            <div class="col-12 col-lg-6">
+              <img src="images/burger.jpg" alt="" class="main__tabs-img w-100 h-100">
+            </div>
+            <div class="col-11 col-lg-6">
+              <div class="main__tabs-info d-flex flex-column justify-content-between">
+                <div>
+                  <h2 class="main__tabs-title">Макет STREET88</h2>
+                  <p class="main__tabs-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde
+                    omnis iste</p>
+                </div>
+                <div>
+                  <a href="https://asnekom.github.io/Street88_modern/" class="main__tabs-btn">подробнее</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" role="tabpanel" id="pizzeria">
+        <div class="container-fluid">
+          <div class="row justify-content-center">
+            <div class="col-12 col-lg-6">
+              <img src="images/pizza.jpg" alt="" class="main__tabs-img w-100 h-100">
+            </div>
+            <div class="col-11 col-lg-6">
+              <div class="main__tabs-info d-flex flex-column justify-content-between">
+                <div>
+                  <h2 class="main__tabs-title">Макет Pizzeria</h2>
+                  <p class="main__tabs-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde
+                    omnis iste</p>
+                </div>
+                <div>
+                  <a href="https://asnekom.github.io/PIZZERIA/" class="main__tabs-btn">подробнее</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="title">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-10 d-flex flex-column align-items-center">
+            <h2 class="title__heading">возможности</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main__accordion ">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-8">
+            <div class="accordion" id="my-collapse">
+              <div class="main__accordion-item">
+                  <div class="main__accordion-header">
+                    <button class="main__accordion-btn" type="button" data-toggle="collapse" data-target="#html" aria-expanded="true" aria-controls="collapseOne">
+                      <i class="fab fa-html5 main__accordion-icon"></i>html5
+                    </button>
+                  </div>
+                  <div class="collapse show" data-parent="#my-collapse" id="html">
+                      <p class="main__accordion-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                      </p>
+                  </div>
+              </div>
+              <div class="main__accordion-item">
+                  <div class="main__accordion-header">
+                    <button class="main__accordion-btn collapsed" type="button" data-toggle="collapse" data-target="#css" aria-expanded="true" aria-controls="collapseOne">
+                      <i class="fab fa-css3-alt main__accordion-icon"></i>css3
+                    </button>
+                  </div>
+                  <div class="collapse" data-parent="#my-collapse" id="css">
+                      <p class="main__accordion-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                      </p>
+                  </div>
+              </div>
+              <div class="main__accordion-item">
+                  <div class="main__accordion-header">
+                    <button class="main__accordion-btn collapsed" type="button" data-toggle="collapse" data-target="#bootstrap" aria-expanded="true" aria-controls="collapseOne">
+                      <i class="fab fa-bootstrap main__accordion-icon"></i>bootstrap4
+                    </button>
+                  </div>
+                  <div class="collapse" data-parent="#my-collapse" id="bootstrap">
+                      <p class="main__accordion-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                      </p>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 footer__logo  d-flex align-items-center justify-content-center">
+          <a class="logo" href="#"><span class="logo__span">my</span> works</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="js/jquery.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
