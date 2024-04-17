@@ -59,6 +59,7 @@ p{
     text-transform: uppercase;
     margin-top: 60px;
     margin-bottom: 30px;
+    padding-top: 35px;
 }
 
 .title__heading::before,
